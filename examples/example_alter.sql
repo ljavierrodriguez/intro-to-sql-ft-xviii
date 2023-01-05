@@ -1,0 +1,4 @@
+
+ALTER TABLE users ADD COLUMN github VARCHAR(50) AFTER email;
+
+ALTER TABLE users DROP COLUMN github;
